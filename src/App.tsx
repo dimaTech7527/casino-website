@@ -1,14 +1,31 @@
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
+import Home from './pages/Home';
+import About from './pages/About';
+import PaymentMethods from './pages/PaymentMethods';
 
 function App() {
-  
   return (
-    <Router>
-      <div className="bg-red-500">
-        <h1>Hello World</h1>
-      </div>
-    </Router>
-  )
+    <HelmetProvider>
+      <Router>
+        <ScrollToTop />
+        <div className="min-h-screen flex flex-col">
+          <Navbar />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/payment-methods" element={<PaymentMethods />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </HelmetProvider>
+  );
 }
 
-export default App
+export default App;
