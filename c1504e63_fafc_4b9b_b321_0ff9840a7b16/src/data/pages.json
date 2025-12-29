@@ -1,0 +1,39 @@
+{
+  "pages": [
+    {
+      "slug": "home",
+      "sections": [
+        "hero",
+        "offers",
+        "mobile",
+        "security",
+        "how it works",
+        "bonuses",
+        "benefits"
+      ]
+    },
+    {
+      "slug": "about",
+      "sections": [
+        "hero",
+        "compliance",
+        "press",
+        "editorial policy",
+        "review process",
+        "careers"
+      ]
+    },
+    {
+      "slug": "payment-methods",
+      "sections": [
+        "hero",
+        "bank transfer",
+        "cta",
+        "deposits",
+        "faq",
+        "verification",
+        "payment overview"
+      ]
+    }
+  ]
+}
