@@ -5,34 +5,21 @@
       "sections": [
         "hero",
         "offers",
-        "mobile",
-        "security",
-        "how it works",
+        "top brands",
+        "cta",
+        "faq",
         "bonuses",
-        "benefits"
+        "security"
       ]
     },
     {
       "slug": "about",
       "sections": [
         "hero",
-        "compliance",
         "press",
-        "editorial policy",
-        "review process",
-        "careers"
-      ]
-    },
-    {
-      "slug": "payment-methods",
-      "sections": [
-        "hero",
-        "bank transfer",
-        "cta",
-        "deposits",
-        "faq",
-        "verification",
-        "payment overview"
+        "partners",
+        "contact options",
+        "faq"
       ]
     }
   ]

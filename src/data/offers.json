@@ -1,0 +1,20 @@
+[
+  {
+    "code": "All British Casino",
+    "bonus": "Get 100% up to £100 + always 10% cashback",
+    "url": "https://www.allbritishcasino.com/",
+    "logo": "images/All_British_Casino.png"
+  },
+  {
+    "code": "FafabetUK",
+    "bonus": "Up to £50 Free Bet + £20 Casino Bonus",
+    "url": "https://www.fafabet.co.uk/",
+    "logo": "images/FafabetUK.jpg"
+  },
+  {
+    "code": "PlayzeeUK",
+    "bonus": "100% up to £300 Bonus + 100 Zee Spins + 500 Zee Points",
+    "url": "https://www.playzee.com/",
+    "logo": "images/PlayzeeUK.jpg"
+  }
+]
