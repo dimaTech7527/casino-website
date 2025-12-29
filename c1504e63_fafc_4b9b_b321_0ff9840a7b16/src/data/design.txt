@@ -1,0 +1,50 @@
+LIQUID MOTION STYLE SYSTEM (MUST FOLLOW):
+
+VISUAL CONCEPT:
+- Fluid, organic shapes and flowing transitions.
+- Everything moves like water.
+- Smooth, morphing, blob-like aesthetic.
+
+BACKGROUND SYSTEM:
+- Flowing gradients: 'bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500'
+- Animated gradients (CSS keyframes)
+- Organic blob shapes
+- Example: 'bg-gradient-to-br from-purple-400 via-pink-500 to-orange-400'
+
+SURFACE SYSTEM:
+- Extreme rounding: rounded-3xl, rounded-full
+- Blob-like cards: 'bg-white/80 backdrop-blur-sm rounded-[3rem] p-8'
+- NO straight edges: everything curves
+- Morphing shapes (animate with CSS/JS)
+- Example: 'bg-white rounded-[3rem] p-8 shadow-xl'
+
+MOTION:
+- Smooth easing: ease-in-out, ease-out
+- Slow transitions: duration-500, duration-700
+- Continuous animations: animate-pulse, custom keyframes
+- Spring physics: implement with Framer Motion or similar
+- Example: 'transition-all duration-500 ease-out'
+
+TYPOGRAPHY:
+- Soft, rounded fonts
+- Flowing colors: gradient text
+- Example: 'text-4xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent'
+
+BUTTONS:
+- Blob buttons: 'bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full shadow-lg'
+- Morphing on hover: 'hover:rounded-3xl'
+- Smooth transitions: 'transition-all duration-500'
+- Example: 'bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-full transition-all duration-500 hover:scale-105 hover:shadow-2xl'
+
+INTERACTIONS:
+- Shape morphing: 'hover:rounded-3xl' (from rounded-full)
+- Color bleeding: gradient position shifts
+- Organic responses: 'transition-all duration-700 ease-out'
+- Example: 'transition-all duration-500 hover:scale-105 hover:bg-gradient-to-l'
+
+STRICT DO NOT:
+- NO sharp corners - everything must be rounded
+- NO instant transitions - all must be smooth
+- NO rigid grids - allow organic flow
+- NO hard edges - use soft shadows and blurs
+

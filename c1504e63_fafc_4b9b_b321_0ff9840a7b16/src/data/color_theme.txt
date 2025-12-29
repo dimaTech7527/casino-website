@@ -1,0 +1,13 @@
+COLOR PALETTE: Forest Green
+
+Use these exact colors in your design:
+
+Background: #14532D
+Surface: #166534
+Primary: #22C55E
+Secondary: #4ADE80
+Accent: #BBF7D0
+Text Primary: #F0FDF4
+Text Secondary: #DCFCE7
+
+Apply these colors consistently throughout the entire UI.
